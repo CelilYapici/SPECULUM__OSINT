@@ -77,6 +77,12 @@ https://speculumosint.streamlit.app
 
 Share this link with anyone — they can access your OSINT tool from their browser without installing anything!
 
+**⚠️ Note on Streamlit Cloud:**
+- Basic scans work: **Gravatar, GitHub, Google Search**
+- Limited scans: **Holehe Deep Scan, Sherlock** (depends on external API availability)
+- CLI tools do NOT work on Streamlit Cloud (environment restrictions): theHarvester, SpiderFoot
+- For full functionality with CLI tools, use local installation or a VPS
+
 ---
 
 ## 7. Important Notes
