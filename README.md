@@ -55,10 +55,35 @@ python3 -m streamlit run main.py
 
 Your browser will automatically open to `http://localhost:8501`.
 
-## 6. Important Notes
+## 6. Deploy to Streamlit Cloud (Optional)
+
+To share this application on the internet, deploy it to **Streamlit Cloud** (free):
+
+### Steps:
+1. Go to https://share.streamlit.io
+2. Sign in with your GitHub account
+3. Click **"Create app"**
+4. Fill in:
+   - **Repository:** `CelilYapici/SPECULUM__OSINT`
+   - **Branch:** `main`
+   - **Main file path:** `main.py`
+5. Click **Deploy**
+
+### Result:
+After deployment, you'll get a public URL like:
+```
+https://speculumosint.streamlit.app
+```
+
+Share this link with anyone — they can access your OSINT tool from their browser without installing anything!
+
+---
+
+## 7. Important Notes
 - Do NOT run `main.py` directly with `python main.py` — Streamlit context will not be created.
 - CLI tools must be available in the system PATH (the app will automatically check if they are installed via `pip install`).
 - If you encounter any issues or errors, check the terminal output for diagnostics.
+- On **Streamlit Cloud**, optional CLI tools (Sherlock, theHarvester, SpiderFoot) may not work due to environment restrictions. Basic scans (Gravatar, GitHub, Google) will still work.
 
 ---
 
