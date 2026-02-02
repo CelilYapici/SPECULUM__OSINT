@@ -1,0 +1,7 @@
+streamlit
+requests
+googlesearch-python
+sherlock
+holehe
+theHarvester
+spiderfoot
